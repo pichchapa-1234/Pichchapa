@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Google Fonts: Alata, Fredoka, Varela Round -->
+<link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Alata&family=Alfa+Slab+One&family=Fredoka:wght@700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <header class="container-fluid px-0">
+      <div class="row g-0">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid px-3">
+              <div><a class="navbar-brand logoText" href="#">TOMO</a></div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- MENU -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav navText">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">MANS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">WOMEN</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ACCESSORIES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">PAGE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+        <div class="row g-0">
+            <div class="col-12">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active position-relative">
+      <img src="img/621310248_02.jpg" class="d-block w-100" alt="...">
+      <!-- ข้อความ overlay บน Carousel รูปที่ 1 -->
+      <div class="carousel-caption-custom">
+        <h3 class="hero-title-yellow">SUMMER GETAWAY</h3>
+        <h1 class="hero-title-black">Holiday sales</h1>
+        <a href="#" class="btn btn-discover">DISCOVER NOW</a>
+      </div>
+    </div>
+    <div class="carousel-item position-relative">
+      <img src="img/621310248_02_2.png" class="d-block w-100" alt="...">
+      <!-- เพิ่มข้อความ overlay บน Carousel รูปที่ 2 (เสื้อม่วง) -->
+      <div class="carousel-caption-custom">
+        <h3 class="hero-title-yellow">SUMMER GETAWAY</h3>
+        <h1 class="hero-title-black">Holiday sales</h1>
+        <a href="#" class="btn btn-discover">DISCOVER NOW</a>
+      </div>
+    </div>
+    <div class="carousel-item position-relative">
+      <img src="img/621310248_02_3.png" class="d-block w-100" alt="...">
+      <!-- เพิ่มข้อความ overlay บน Carousel รูปที่ 3 (เสื้อส้ม) -->
+      <div class="carousel-caption-custom">
+        <h3 class="hero-title-yellow">SUMMER GETAWAY</h3>
+        <h1 class="hero-title-black">Holiday sales</h1>
+        <a href="#" class="btn btn-discover">DISCOVER NOW</a>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="container mt-5 mb-5">
+        <div class="row">
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-3 mb-md-0">
+                <div class="boxImg">
+                    <img src="img/621310248_05.jpg">
+                </div>
+                <div class="boxText">CRAZY WOMEN'S</div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-3 mb-md-0">
+                <div class="boxImg">
+                    <img src="img/621310248_07.jpg">
+                </div>
+                <div class="boxText">SUMMER'S HOLIDAY</div>
+            </div>
+
+             <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-3 mb-md-0">
+                <div class="boxImg">
+                    <img src="img/621310248_09.jpg">
+                </div>
+                <div class="boxText">UNIQUE ACCRSSORIES</div>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <!-- =====  NEW ARRIVALS ===== -->
+    <section class="container text-center my-5">
+        <h2 class="title-yellow">NEW ARRIVALS</h2>
+        <ul class="nav justify-content-center filter-menu mb-4">
+            <li class="nav-item"><a class="nav-link active fw-bold text-dark text-decoration-underline" href="#">ALL</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="#">MANS</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="#">WOMEN</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="#">ACCESSORIES</a></li>
+        </ul>
+
+        <div class="row text-start">
+            <div class="col-lg-3 col-md-6 col-12 mb-4">
+                <div class="product-card">
+                    <img src="img/621310248_14.jpg" class="img-fluid mb-2" alt="Long-sleeved T-shirt">
+                    <p class="mb-1 fw-bold fs-7">Long-sleeved T-shirt</p>
+                    <p class="price">$80.00</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-4">
+                <div class="product-card">
+                    <img src="img/621310248_16.jpg" class="img-fluid mb-2" alt="Black backpack">
+                    <p class="mb-1 fw-bold fs-7">Black backpack</p>
+                    <p class="price">$180.00</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-4">
+                <div class="product-card">
+                    <img src="img/621310248_18.jpg" class="img-fluid mb-2" alt="Short-sleeved shirt">
+                    <p class="mb-1 fw-bold fs-7">Short-sleeved shirt</p>
+                    <p class="price">$90.00</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-4">
+                <div class="product-card">
+                    <img src="img/621310248_20.jpg" class="img-fluid mb-2" alt="Crop top">
+                    <p class="mb-1 fw-bold fs-7">Crop top</p>
+                    <p class="price">$85.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== BANNER GRID ===== -->
+    <section class="container my-5">
+        <div class="row g-3">
+            <div class="col-lg-4 col-md-12 col-12">
+                <img src="img/621310248_25.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Banner 1">
+            </div>
+            <div class="col-lg-8 col-md-12 col-12">
+                <div class="row g-3">
+                    <div class="col-6">
+                        <img src="img/621310248_26.jpg" class="img-fluid w-100" alt="Banner 2">
+                    </div>
+                    <div class="col-6">
+                        <img src="img/621310248_27.jpg" class="img-fluid w-100" alt="Banner 3">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/621310248_30.jpg" class="img-fluid w-100" alt="Banner 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LATEST NEWS ===== -->
+    <section class="container text-center my-5">
+        <h2 class="title-yellow">LATEST NEWS</h2>
+        <p class="text-uppercase text-muted sub-title mb-4">TRENDING FASHION STYLE</p>
+
+        <div class="row text-start justify-content-center">
+            <div class="col-lg-4 col-md-4 col-12 mb-3">
+                <div class="news-card p-4 d-flex flex-column justify-content-between">
+                    <div>
+                        <h5 class="news-title">Getting trending style in this summer 2025 for a crazy girl</h5>
+                    </div>
+                    <div>
+                        <p class="text-muted mb-1 small news-date">August,21,2025</p>
+                        <hr class="mt-0 mb-3 border-warning opacity-100" style="border-width: 2px;">
+                        <a href="#" class="text-dark fw-bold text-decoration-none small read-more-text">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mb-3">
+                <div class="news-card p-4 d-flex flex-column justify-content-between">
+                    <div>
+                        <h5 class="news-title">Getting trending style in this summer 2025 for a crazy girl</h5>
+                    </div>
+                    <div>
+                        <p class="text-muted mb-1 small news-date">August,21,2025</p>
+                        <hr class="mt-0 mb-3 border-warning opacity-100" style="border-width: 2px;">
+                        <a href="#" class="text-dark fw-bold text-decoration-none small read-more-text">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mb-3">
+                <div class="news-card p-4 d-flex flex-column justify-content-between">
+                    <div>
+                        <h5 class="news-title">Getting trending style in this summer 2025 for a crazy girl</h5>
+                    </div>
+                    <div>
+                        <p class="text-muted mb-1 small news-date">August,21,2025</p>
+                        <hr class="mt-0 mb-3 border-warning opacity-100" style="border-width: 2px;">
+                        <a href="#" class="text-dark fw-bold text-decoration-none small read-more-text">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid px-0">
+        <div class="row g-0">
+            <div class="col-12 boxFootImg">
+                <img src="img/621310248_33.jpg">
+            </div>
+        </div>
+        <div class="row boxFootMenu g-0 px-3">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12 mb-3 mb-md-0">
+                <div>INFORMATION</div>
+                    <ul class="list-unstyled">
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Affiliate</li>
+                        <li>Responsibility</li>
+                        <li>Contact Us</li>
+                    </ul>
+            </div>
+        
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12 mb-3 mb-md-0">
+                <div>COSTOMER CARE</div>
+                    <ul class="list-unstyled">
+                        <li>Returns</li>
+                        <li>Shopping</li>
+                        <li>FAQ</li>
+                        <li>Size Guide</li>
+                        <li>Track Orders</li>
+                    </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12 mb-3 mb-md-0">
+                <div>NEWSLETTER</div>
+                    <ul class="list-unstyled mb-2">
+                        <li>Subscribe to get daily news & more gif</li>
+                    </ul>
+                    <!-- เพิ่มส่วนอินพุตและปุ่ม -->
+                    <div class="d-flex align-items-center mb-3 gap-2">
+                        <input type="text" class="form-control newsletter-input" placeholder="">
+                        <button class="btn newsletter-btn" type="button"></button>
+                    </div>
+                    <div class="d-flex gap-2 align-items-center">
+                        <span class="social-circle"></span>
+                        <span class="social-circle bg-cyan"></span>
+                        <span class="social-circle"></span>
+                        <span class="social-circle"></span>
+                        <span class="social-circle"></span>
+                    </div>
+            </div>
+        </div>
+
+        <div class="row boxFootCopy g-0">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                Copyright 2025 ToMo.All right reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
