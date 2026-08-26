@@ -44,6 +44,7 @@ a.logoText {
     background-color: #fdf7e7;
     min-height: 328px;
     height: auto;
+    font-family: "IBM Plex Sans Thai", sans-serif;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 18px;
