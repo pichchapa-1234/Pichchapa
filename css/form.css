@@ -1,0 +1,89 @@
+/* ===== Form Styling CM Café ===== */
+
+/* หัวข้อ CM Café & ORDER YOUR DRINK */
+section .text-center:first-child {
+  color: #f1b319;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+section .text-center:nth-child(2) {
+  color: #8c6b1b;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 1.5rem;
+}
+
+/* หัวข้อหมวดหมู่ CUSTOMER, YOUR DRINK, PICK UP */
+form .row > div:not([class*="col-"]) {
+  font-weight: 700;
+  color: #333333;
+  font-size: 0.95rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ป้ายข้อความกำกับช่องกรอก */
+form .col-lg-6 > div:first-child,
+form .row.col-lg-12 > div:first-child {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 0.25rem;
+}
+
+/* ช่องกรอกข้อความ (Input) และ Dropdown (Select) สีกรอบและพื้นหลังตาม Figma */
+.form-control,
+.form-select {
+  border: 1.5px solid #ffcc00;
+  background-color: #fffef2;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #444444;
+  box-shadow: none;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #e5a912;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 0.2rem rgba(255, 204, 0, 0.25);
+}
+
+/* Checkbox & Radio สีเหลือง */
+.form-check-input {
+  border: 1.5px solid #ffcc00;
+  background-color: #fffef2;
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: #ffcc00;
+  border-color: #ffcc00;
+}
+
+.form-check-label {
+  font-size: 0.85rem;
+  color: #333333;
+  cursor: pointer;
+}
+
+/* ปุ่มยืนยันคำสั่งซื้อ */
+button[type="submit"] {
+  background-color: #ebd076;
+  border: 1.5px solid #cca12a;
+  color: #5c4403;
+  font-weight: 700;
+  border-radius: 6px;
+  padding: 0.5rem 2.8rem;
+  font-size: 0.95rem;
+  margin-top: 1rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #dfc15e;
+  color: #3b2b00;
+}
